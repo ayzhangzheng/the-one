@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.com.myapplication" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/tubiao"
+        android:label="注册"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="注册" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity2Activity"
+            android:label="注册信息" >
+        </activity>
+        <activity
+            android:name=".MainActivity3Activity"
+            android:label="@string/title_activity_main_activity3" >
+        </activity>
+    </application>
+
+</manifest>
